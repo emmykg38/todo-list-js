@@ -1,0 +1,69 @@
+how will program run?
+
+console edition:
+welcome message:    "Hello! Welcome to your to-do list"
+instruction prompt: "If you'd like to add a task, enter 1. If you'd like to delete a task, enter 2. If you'd like to view the task-list, enter 3.
+                    If you'd like to exit, enter 0. If you need a reminder of these options, enter 5 at anytime."
+
+while loop that runs the program:
+                    while user does not click 0, 1, 2, 3, 5 continue running program
+                    if they do click 0, exit the program
+
+
+conditionals:
+                    if user enters 1, they will be prompted to add a task-item
+                    if user enters 2, they will be prompted to delete a task-item
+                    if user enters 3, the task-list will be displayed
+                        -if there's nothing to display, an error message will need to be displayed
+                        "Oops! There's nothing here yet. If you'd like to add a task, please enter 1."
+                    if user enters 5, the instruction prompt will be displayed
+
+
+how will tasks be stored?
+                    each string task will be stored inside an ARRAY, which will need to be formatted to display each task on separate lines during the duration of the program,
+                    with each added value gets a corresponding number either visible or not (which will help with deletion purposes)
+
+
+when user enters 1:
+                    they will be prompted to enter a string that will store the value of the new task. when they press enter, the new task will be added to the array
+                    and the updated task-list will be displayed to the user
+
+when user enters 2:
+                    they will be prompted to enter the key (to the value) that they want to delete. when they press enter, this value will be deleted from the list
+
+
+when user enters 3:
+                    the task-list will be displayed
+
+
+when user enters 5:
+                    the instruction prompt will be displayed
+
+
+when user enters 0:
+                    the program will end
+
+
+
+
+functionality needed:
+                    while loop that runs unless user enters 0.
+                        -if user enters 1, add task
+                        -if user enters 2, delete task
+                        -if user enters 3, display task list
+                        -if user enters 5, display instruction prompt
+                    
+
+                    an array that stores each task
+
+
+                    displaying the array items:
+                        for loop that adds a number to each value, +1 more than it's index value.
+
+                        EX:
+                        ['go to grocery store', 'laundry', 'work on coder girl', 'cook dinner']
+                        1. go to grocery store[0]
+                        2. laundry[1]
+                        3. work on coder girl[2]
+                        4. cook dinner[3]
+
