@@ -67,3 +67,25 @@ functionality needed:
                         3. work on coder girl[2]
                         4. cook dinner[3]
 
+
+
+
+
+VARIABLES NEEDED:
+
+welcomeMessage      String
+instructionPrompt   String
+noDisplayErrorMsg   String
+userTask            String          task given to program by user
+
+taskList            initialize empty array
+
+
+
+
+METHODS NEEDED:
+
+addTask(String task)        adds user input to array
+displayTasks(? needs array) prints out all the tasks with corresponding numbers (index + 1)
+deleteTask(String task)     removes selected task from list. accepts positive numbers only. remove task at index - 1 of the number user inputs            
+
